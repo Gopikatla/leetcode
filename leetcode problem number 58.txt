@@ -1,0 +1,13 @@
+// leetcode problem number 58
+
+class Solution {
+    public int lengthOfLastWord(String s) {
+        s= s.trim();
+        int a = s.lastIndexOf(" ");
+        String str = s.substring(a+1); // a strts from including space index so i am moving this to one index further
+        int b = str.length();
+        return b;
+        
+    }
+   
+}
